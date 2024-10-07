@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Citas Médicas</title>
+    <link rel="stylesheet" href="citas.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Gestionar Cita Médica</h2>
+        <form id="citasForm">
+            <label for="nombre">Nombre del Paciente:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="fecha">Fecha de la Cita:</label>
+            <input type="date" id="fecha" name="fecha" required>
+
+            <label for="hora">Hora de la Cita:</label>
+            <input type="time" id="hora" name="hora" required>
+
+            <label for="especialista">Especialista:</label>
+            <select id="especialista" name="especialista" required>
+                <option value="">Seleccione un especialista</option>
+                <option value="Cardiología">Cardiología</option>
+                <option value="Pediatría">Pediatría</option>
+                <option value="Neurología">Neurología</option>
+                <option value="Dermatología">Dermatología</option>
+                <!-- Agrega más especialistas según lo necesario -->
+            </select>
+
+            <button type="submit">Agendar Cita</button>
+        </form>
+        <div id="resultado"></div>
+    </div>
+    <script src="citas.js"></script>
+</body>
+</html>
