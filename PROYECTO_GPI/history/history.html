@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia Clínica</title>
+    <link rel="stylesheet" href="history.css">
+</head>
+<body>
+    <div class="history-container">
+        <h2>Historia Clínica</h2>
+        <label for="historiaSelector">Seleccione una historia clínica:</label>
+        <select id="historiaSelector">
+            <option value="">-- Seleccionar --</option>
+            <option value="0">Historia Clínica 1 - 2024-10-05</option>
+            <option value="1">Historia Clínica 2 - 2023-05-10</option>
+            <option value="2">Historia Clínica 3 - 2022-12-15</option>
+            <option value="3">Historia Clínica 4 - 2021-06-25</option>
+            <option value="4">Historia Clínica 5 - 2020-11-02</option>
+        </select>
+        <button id="consultButton">Consultar</button>
+        
+        <div id="medicalHistory" class="hidden">
+            <h3>Antecedentes Médicos</h3>
+            <p id="antecedents"></p>
+            
+            <h3>Tratamiento Actual</h3>
+            <p id="treatment"></p>
+        </div>
+    </div>
+
+    <script src="history.js"></script>
+</body>
+</html>

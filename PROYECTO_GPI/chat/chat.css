@@ -1,0 +1,38 @@
+.chat-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#chatBox {
+    height: 300px;
+    overflow-y: scroll;
+    margin-bottom: 1rem;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+form {
+    display: flex;
+    gap: 0.5rem;
+}
+
+input {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

@@ -15,7 +15,6 @@ body {
     margin: 0;
 }
 
-/* Contenedor principal del formulario */
 .form-container {
     background-color: #fff;
     padding: 2rem;
@@ -31,7 +30,6 @@ h2 {
     color: #333;
 }
 
-/* Estilos del formulario */
 form {
     display: flex;
     flex-direction: column;
@@ -78,14 +76,12 @@ button:hover {
     background-color: #0056b3;
 }
 
-/* Para centrar el resultado */
 #resultado {
     margin-top: 1rem;
     font-size: 1rem;
     color: #28a745;
 }
 
-/* Media queries para asegurar buena visualización en dispositivos pequeños */
 @media (max-width: 480px) {
     .form-container {
         padding: 1.5rem;

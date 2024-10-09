@@ -14,7 +14,6 @@ body {
     margin: 0;
 }
 
-/* Contenedor principal del formulario de login */
 .login-container {
     background-color: #fff;
     padding: 2rem;
@@ -30,7 +29,6 @@ h2 {
     color: #333;
 }
 
-/* Estilos del formulario */
 form {
     display: flex;
     flex-direction: column;
@@ -44,13 +42,14 @@ label {
     text-align: left;
 }
 
-input[type="text"],
+input[type="email"],
 input[type="password"] {
     padding: 0.8rem;
     border: 1px solid #ddd;
     border-radius: 5px;
     width: 100%;
     font-size: 1rem;
+    display: block;
 }
 
 input:focus {
@@ -74,20 +73,18 @@ button:hover {
     background-color: #0056b3;
 }
 
-/* Para mensajes de error */
 #error-message {
     margin-top: 1rem;
     color: red;
     font-size: 0.9rem;
 }
 
-/* Media queries para asegurar buena visualización en dispositivos pequeños */
 @media (max-width: 480px) {
     .login-container {
         padding: 1.5rem;
     }
 
-    input[type="text"],
+    input[type="email"],
     input[type="password"] {
         font-size: 0.9rem;
     }

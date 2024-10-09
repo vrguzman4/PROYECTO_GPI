@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados de Exámenes</title>
+    <link rel="stylesheet" href="results.css">
+</head>
+<body>
+    <div class="resultados-container">
+        <h2>Resultados de Exámenes</h2>
+        
+        <label for="examenes">Selecciona un Examen:</label>
+        <select id="examenes">
+            <option value="">Seleccione un examen</option>
+        </select>
+        
+        <button id="verResultadosButton">Ver Resultados</button>
+
+        <div id="resultadoDetalles" class="resultado-detalles hidden">
+            <h3>Detalles del Examen:</h3>
+            <div id="detalles"></div>
+        </div>
+
+        <div id="mensaje"></div>
+    </div>
+    <script src="results.js"></script>
+</body>
+</html>
